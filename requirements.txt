@@ -1,2 +1,7 @@
+numpy
+pandas
+statsmodels
+matplotlib
+scikit-learn
 ipykernel
 python-dotenv
