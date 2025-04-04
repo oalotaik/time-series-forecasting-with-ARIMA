@@ -1,25 +1,28 @@
-# Project Title
+# Time Series Forecasting with ARIMA
 
 ## Overview
-Brief description of your project, including its main purpose and key features. (2-3 sentences)
+To show how to use `pandas` and `statsmodels` libraries for forecasting with ARIMA and several of its variants. Several jupyter notebooks introduce the topic in a gradual fasion, starting with an introduction to forecasting and ending with seasonal ARIMA with exogenuous variables aka SARIMAX.
 
 ## Problem Statement
-- Describe the optimization/ML problem being solved
-- Key objectives
-- Constraints (if applicable)
+- How to build ARIMA models for stationary and non-stationary time series?
+- How to evaluate ARIMA models?
+- How to produce future forecasts using fitted ARIMA models?
+- How to visualize forecasts?
 
 ## Methods/Architecture
-- List of algorithms/methods used (e.g., MILP, Genetic Algorithm, CNN, etc.)
-- Model architecture (for DL projects)
-- Optimization formulation (for exact methods)
-- Key parameters and hyperparameters
+- ARIMA
+- SARIMA
+- SARIMAX
 
 ## Requirements
 ```bash
-numpy==1.21.0
-pytorch==1.9.0
-scikit-learn==0.24.2
-# Add other dependencies
+numpy
+pandas
+statsmodels
+matplotlib
+scikit-learn
+ipykernel
+python-dotenv
 ```
 ## Project Structure
 
@@ -27,13 +30,7 @@ scikit-learn==0.24.2
 ├── data/              # Dataset files
 │   ├── processed/     # Cleaned and processed data
 │   └── raw/          # Original data
-├── models/            # Trained models
 ├── notebooks/         # Jupyter notebooks
-├── references/        # Papers, documentation, etc.
-├── src/              # Source code
-│   ├── data.py       # Data processing functions
-│   ├── models.py     # Model implementations
-│   └── utils.py      # Utility functions
 ├── .gitignore        # Git ignore file
 ├── README.md         # Project documentation
 └── requirements.txt  # Dependencies
@@ -41,20 +38,17 @@ scikit-learn==0.24.2
 
 ## Setup and Installation
 ```bash
-git clone https://github.com/username/project-name.git
-cd project-name
+git clone https://github.com/oalotaik/time-series-forecasting-with-ARIMA.git
+cd time-series-forecasting-with-ARIMA
 pip install -r requirements.txt
 ```
 
-## Results
-
-Summarize the main results
 
 ## Citation
 If this project was useful for your research, please cite:
 ```bash
 @article{Alotaik2025project,
-  title={Project Title},
+  title={time-series-forecasting-with-ARIMA},
   author={Alotaik, O.},
   year={2025}
 }
